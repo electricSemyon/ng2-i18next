@@ -22,7 +22,7 @@ export class I18nDirective implements OnChanges {
   */
   ngOnChanges() {
     this.loadAndRender(this.content, (s) => {
-      this.renderer.setText(this.el.nativeElement, s);
+      this.el.nativeElement.textContent = s;
     });
 
     this.loadAndRender(this.phContent, (s) => {
