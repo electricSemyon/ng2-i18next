@@ -1,11 +1,12 @@
 {
   "dependencies": {
     "@angular/core": "2.4.9",
-    "rxjs": "5.0.0-beta.6",
-    "zone.js": "0.6.12",
     "i18next": "^3.3.1",
     "i18next-browser-languagedetector": "^0.3.0",
-    "i18next-xhr-backend": "^0.6.0"
+    "i18next-xhr-backend": "^0.6.0",
+    "rxjs": "5.0.0-beta.6",
+    "typescript": "^1.8.10",
+    "zone.js": "0.6.12"
   },
   "main": "ng2-i18next.js",
   "typings": "ng2-i18next.d.ts",
