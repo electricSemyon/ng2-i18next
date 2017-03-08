@@ -12,5 +12,5 @@ export declare class I18nService {
     private whenReadyObserver;
     constructor(config: I18nServiceConfig);
     t(s: string, opts?: any): any;
-    tPromise(s: string, opts?: any): any;
+    tPromise(s: string, opts?: any): Promise<{}>;
 }
