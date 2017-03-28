@@ -1,5 +1,8 @@
-import { Renderer, ElementRef, OnChanges } from '@angular/core';
+import { Directive, Renderer, ElementRef, OnChanges } from '@angular/core';
 import { I18nService } from './i18n-service';
+@Directive({
+    selector: 'i18nservice',
+})
 export declare class I18nDirective implements OnChanges {
     private i18n;
     private el;
